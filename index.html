@@ -26,6 +26,7 @@ tailwind.config = {
           clifford: '#da373d',
           'bike-primary': '#E76F51',
           'bike-primary-bg': '#E76F511A',
+          'bike-primary-bg1': '#rgb(231, 111, 81);',
         },
       },
     },
@@ -34,7 +35,7 @@ tailwind.config = {
 </head>
 <body class="poppins-font">
     <!-- Header Section -->
-     <header class="container mx-auto">
+     <header class="container mx-auto mb-[120px]">
         <!-- Nav Bar section -->
         <div class="navbar bg-base-100">
             <div class="flex-1">
@@ -168,5 +169,50 @@ tailwind.config = {
                   </div>
           
      </header>
+
+
+     <main>
+       <!-- Featured Bikes In This Year Section -->
+      <section>
+        <!-- Text Part -->
+          <div class="mb-16">
+            <h1 class="text-center text-5xl font-semibold">Fetured Bikes In This Year</h1>
+            <p class="text-[14px] text-[#E76F51] font-semibold text-center">Best bike collection </p>
+            <div class="h-[2px] w-[75px] rounded-md bg-[#E76F51] mx-auto"></div>
+          </div>
+          
+          <!-- Image Part -->
+
+          <div class="flex flex-col items-center lg:flex-row justify-center gap-32">
+            <div>
+              <img class="filter grayscale" src="others/feature-bike.png" alt="">
+            </div>
+            <div>
+              <img src="others/feature-bike.png" alt="">
+            </div>
+            <div>
+              <img class="filter grayscale" src="others/feature-bike.png" alt="">
+            </div>
+          </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </main>
 </body>
 </html>
